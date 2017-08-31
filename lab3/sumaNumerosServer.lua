@@ -21,7 +21,7 @@ while true do
 	s_sleep(1000)
 	
 	socket:send(string.format("%f",myNumbers))
-ss
+
 end
 
 socket:close()

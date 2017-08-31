@@ -14,7 +14,6 @@ while true do
 	s_sleep(1000)
 	
 	socket:send(os.date("Son las: %X"))
-
 end
 socket:close()
 context:term()
